@@ -1,0 +1,27 @@
+{
+  "name": "gm-crypt",
+  "version": "0.0.2",
+  "description": "Chinese GM crypt algorithm in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pecliu/gm-crypt.git"
+  },
+  "keywords": [
+    "ChineseGM",
+    "SM2",
+    "SM3",
+    "SM4"
+  ],
+  "author": "pecliu <pecliu@foxmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "base64-js": "^1.3.0"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
+}
