@@ -2,13 +2,13 @@
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
-基于`javascript`和JS的[`TypedArray`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray)的国密加密算法实现。
+基于`javascript`和[`TypedArray`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray)的国密加密算法实现。
 
 Implement of Chinese encrypt algorithm in JavaScript and [TypedArray](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray).
 
 为了兼容浏览器环境和node.je环境，这里我们使用了[TextEncoder](https://developer.mozilla.org/en-US/docs/Web/API/TextEncoder)和[Base64.js](https://github.com/beatgammit/base64-js)。
 
-Here we use [TextEncoder](https://developer.mozilla.org/en-US/docs/Web/API/TextEncoder) and [Base64.js](https://github.com/beatgammit/base64-js) for both browser ande node.js environment.
+Here we use [TextEncoder](https://developer.mozilla.org/en-US/docs/Web/API/TextEncoder) and [Base64.js](https://github.com/beatgammit/base64-js) for both browser and node.js environment.
 
 由于使用了`TextEncoder`，所以暂时不支持`Edge`。Node.js版本最低为8，建议使用最新的LTS版本。
 
