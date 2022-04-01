@@ -1,4 +1,4 @@
-# gm-crypt-nodejs 
+# gm-sm4-crypto
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
@@ -14,6 +14,10 @@ Here we use [TextEncoder](https://developer.mozilla.org/en-US/docs/Web/API/TextE
 
 Because of using `TextEncoder`， this code cannot run in `Edge` browser. `Node.js`‘s version should at least be 8, and the newest LTS version is recommended.
 
+新增特性
+ - 与[`openssl_encrypt`](https://www.php.net/manual/en/function.openssl-encrypt.php)和[`openssl_decrypt`](https://www.php.net/manual/en/function.openssl-decrypt.php)保持一致性，当密码长度小于16时，静默填充NUL；当密码长度大于16时，静默截断。
+ - 要使用openssl国密算法，openssl库需 >= 1.1.1
+
 ## Roadmap
 
 - [x] SM4
@@ -25,7 +29,7 @@ Because of using `TextEncoder`， this code cannot run in `Edge` browser. `Node.
 ### Install
 
 ```
-npm install gm-crypt
+npm install gm-sm4
 ```
 
 ### SM4
@@ -33,7 +37,7 @@ npm install gm-crypt
 #### Init
 
 ```js
-const SM4 = require('gm-crypt').sm4
+const SM4 = require('gm-sm4').sm4
 
 let sm4Config = {
   // encrypt/decypt main key; cannot be omitted
