@@ -1,4 +1,4 @@
-# gm-sm4-crypto
+# evit-gm-crypt
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
@@ -29,7 +29,7 @@ Because of using `TextEncoder`， this code cannot run in `Edge` browser. `Node.
 ### Install
 
 ```
-npm install gm-sm4
+npm install evit-gm-crypt
 ```
 
 ### SM4
