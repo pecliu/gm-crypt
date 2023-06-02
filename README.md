@@ -21,7 +21,7 @@ Because of using `TextEncoder`， this code cannot run in `Edge` browser. `Node.
 ## Roadmap
 
 - [x] SM4
-- [ ] SM3
+- [x] SM3
 - [ ] SM2
 
 ## Documentation
